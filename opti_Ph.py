@@ -1,6 +1,6 @@
 """
 This code is used to compute the optimal high pressure P_h to maximize the COP of CO2 transcritical cycles,
-using both a standard cycle and a cycle with DMS. It also includes functions to derive correlations for this pressure, 
+using both a standard cycle (StandardCycle) and a cycle with DMS (ComplexSystem). It also includes functions to derive correlations for this pressure, 
 and informatively assess the influence of P_h on COP*.
 """
 from CONSTANTS import *
